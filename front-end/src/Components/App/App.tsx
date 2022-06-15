@@ -8,6 +8,8 @@ import Signup from "../../Pages/Signup";
 import Login from "../../Pages/Login";
 import ForgotPassword from "../../Pages/ForgotPassword";
 import Home from "../../Pages/Home";
+import Books from "../../Pages/Books";
+import Games from "../../Pages/Games";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/forgotPassword" element={<ForgotPassword />} />
+      <Route path="/games" element={<Games />} />
+      <Route path="/books" element={<Books />} />
       <Route path="/" element={<Home />} />
     </Routes>
   );

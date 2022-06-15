@@ -116,44 +116,26 @@ const Login: React.FC = () => {
           >
             Login
           </Button>
-          <Button
-            type="button"
-            classNames={{
-              root: buttonStyles.classes.root,
-            }}
-          >
-            <Link
-              to="/signup"
-              style={{
-                width: "100%",
-                height: "100%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+          <Link to="/signup">
+            <Button
+              type="button"
+              classNames={{
+                root: buttonStyles.classes.root,
               }}
             >
               Signup
-            </Link>
-          </Button>
-          <Button
-            type="button"
-            classNames={{
-              root: buttonStyles.classes.root,
-            }}
-          >
-            <Link
-              to="/forgotPassword"
-              style={{
-                width: "100%",
-                height: "100%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+            </Button>
+          </Link>
+          <Link to="/forgotPassword">
+            <Button
+              type="button"
+              classNames={{
+                root: buttonStyles.classes.root,
               }}
             >
               Forgot Password
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </Group>
       </form>
     </Container>
